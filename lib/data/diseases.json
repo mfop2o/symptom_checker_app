@@ -1,14 +1,104 @@
 {
   "diseases": [
     {
-      "name": "Flu",
-      "symptoms": ["fever", "cough", "fatigue"],
-      "advice": "Rest, drink fluids, take paracetamol."
+      "id": "malaria",
+      "translations": {
+        "en": {
+          "name": "Malaria",
+          "symptoms": ["fever", "chills", "sweating", "headache", "nausea", "fatigue"],
+          "advice": "Please visit the nearest health clinic immediately for a blood test. Malaria requires prompt treatment with antimalarial drugs."
+        },
+        "am": {
+          "name": "ወባ",
+          "symptoms": ["ትኩሳት", "ብርድ ብርድ ማለት", "ማላብ", "ራስ ምታት", "ማቅለሽለሽ", "ድካም"],
+          "advice": "እባክዎን በአስቸኳይ ለደም ምርመራ በአቅራቢያዎ ወደሚገኝ ጤና ጣቢያ ይሂዱ። ወባ በአፋጣኝ የፀረ-ወባ መድኃኒት ማግኘት ያስፈልገዋል።"
+        },
+        "or": {
+          "name": "Busa",
+          "symptoms": ["hoo'a qaamaa", "dhaamochuu", "dafqisiisuu", "bowwuu", "qakkabuu", "dadhabbi"],
+          "advice": "Maaloo hatattamaan qorannoo dhiigaatiif kilinika dhihoo jiru deemaa. Busaan qoricha farra-busaatiin hatattamaan yaalamuu qaba."
+        }
+      }
     },
     {
-      "name": "Malaria",
-      "symptoms": ["fever", "chills", "sweating"],
-      "advice": "Go to nearest clinic for test."
+      "id": "typhoid_fever",
+      "translations": {
+        "en": {
+          "name": "Typhoid Fever",
+          "symptoms": ["fever", "headache", "stomachache", "fatigue", "loss of appetite"],
+          "advice": "Consult a doctor for antibiotics. Ensure you drink safe, boiled, or purified water and eat well-cooked food."
+        },
+        "am": {
+          "name": "ታይፎይድ",
+          "symptoms": ["ትኩሳት", "ራስ ምታት", "የሆድ ህመም", "ድካም", "የምግብ ፍላጎት መቀነስ"],
+          "advice": "ለፀረ-ባክቴሪያ መድኃኒቶች ሀኪም ያማክሩ። የተጣራ ወይም የፈላ ውሃ መጠጣትዎን እና በደንብ የበሰለ ምግብ መመገብዎን ያረጋግጡ።"
+        },
+        "or": {
+          "name": "Dhukkuba Xaayifoodii",
+          "symptoms": ["hoo'a qaamaa", "bowwuu", "dhukkubbii garaa", "dadhabbi", "fedhii nyaataa dhabuu"],
+          "advice": "Qoricha farra-baakteeriyaaf ogeessa fayyaa mariisisaa. Bishaan qulqulluu ykn danfisame dhuguu fi nyaata gaariin bilchaate nyaachuu mirkaneessaa."
+        }
+      }
+    },
+    {
+      "id": "cholera",
+      "translations": {
+        "en": {
+          "name": "Acute Watery Diarrhea / Cholera",
+          "symptoms": ["diarrhea", "nausea", "fatigue"],
+          "advice": "High risk of dehydration. Drink ORS (Oral Rehydration Salts) immediately and seek emergency medical care."
+        },
+        "am": {
+          "name": "አጣዳፊ ተቅማጥ",
+          "symptoms": ["ተቅማጥ", "ማቅለሽለሽ", "ድካም"],
+          "advice": "ለድርቀት የመጋለጥ ከፍተኛ አደጋ አለው። ወዲያውኑ ኦአርኤስ (ORS) ይጠጡ እና የድንገተኛ ህክምና እርዳታ ይፈልጉ።"
+        },
+        "or": {
+          "name": "Teessisaa / Koleeraa",
+          "symptoms": ["teessisaa", "qakkabuu", "dadhabbi"],
+          "advice": "Bishaan qaama keessaa xumuruu danda'a. Hatattamaan ashabboo (ORS) dhugaa, gargaarsa wal'aansaa hatattamaas barbaadaa."
+        }
+      }
+    },
+    {
+      "id": "common_cold",
+      "translations": {
+        "en": {
+          "name": "Common Cold / Flu",
+          "symptoms": ["cough", "fever", "headache", "fatigue"],
+          "advice": "Rest well, drink plenty of warm fluids, and take paracetamol for fever. If symptoms persist for more than a week, see a doctor."
+        },
+        "am": {
+          "name": "ጉንፋን",
+          "symptoms": ["ሳል", "ትኩሳት", "ራስ ምታት", "ድካም"],
+          "advice": "በደንብ ያርፉ፣ ሞቅ ያሉ ፈሳሾችን በብዛት ይጠጡ፣ እና ለትኩሳት ፓራሲታሞል ይውሰዱ። ምልክቶቹ ከአንድ ሳምንት በላይ ከቆዩ ሀኪም ያማክሩ።"
+        },
+        "or": {
+          "name": "Qufaa",
+          "symptoms": ["qufaa", "hoo'a qaamaa", "bowwuu", "dadhabbi"],
+          "advice": "Boqonnaa gahaa fudhadhaa, dhangala'aa ho'aa baay'inaan dhugaa, hoo'a qaamaatiif ammoo paraasitaamoolii fudhadhaa. Mallattoon kun torbee tokkoo ol yoo ture man-yaalaa deemaa."
+        }
+      }
+    },
+    {
+      "id": "tuberculosis",
+      "translations": {
+        "en": {
+          "name": "Tuberculosis",
+          "symptoms": ["prolonged cough", "chest pain", "fatigue", "fever", "sweating", "loss of appetite"],
+          "advice": "TB is curable but requires a strict medication regimen. Please visit a hospital for a sputum test or chest X-ray."
+        },
+        "am": {
+          "name": "ቲቢ (የሳንባ ነቀርሳ)",
+          "symptoms": ["የረጅም ጊዜ ሳል", "የደረት ህመም", "ድካም", "ትኩሳት", "ማላብ", "የምግብ ፍላጎት መቀነስ"],
+          "advice": "ቲቢ መዳን የሚችል በሽታ ነው፣ ነገር ግን ጥብቅ የሆነ የመድኃኒት ክትትል ይፈልጋል። እባክዎን ለአክታ ምርመራ ወይም ለደረት ራጅ ወደ ሆስፒታል ይሂዱ።"
+        },
+        "or": {
+          "name": "Dhukkuba Sombaa (TB)",
+          "symptoms": ["qufaa yeroo dheeraa", "dhukkubbii qomaa", "dadhabbi", "hoo'a qaamaa", "dafqisiisuu", "fedhii nyaataa dhabuu"],
+          "advice": "TBn dhukkuba fayyuudha garuu qoricha sirnaan fudhachuu gaafata. Qorannoo aakkayyee ykn x-rayii qomaatiif gara hospitaalaa deemaa."
+        }
+      }
     }
   ]
 }
