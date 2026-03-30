@@ -1,0 +1,14 @@
+{
+  "diseases": [
+    {
+      "name": "Flu",
+      "symptoms": ["fever", "cough", "fatigue"],
+      "advice": "Rest, drink fluids, take paracetamol."
+    },
+    {
+      "name": "Malaria",
+      "symptoms": ["fever", "chills", "sweating"],
+      "advice": "Go to nearest clinic for test."
+    }
+  ]
+}
